@@ -20,7 +20,7 @@ class Competenze
         $buffer = '';
         if ($results = $this->databaseObj->query($this->sql)) {
             while ($risultato = $results->fetch_assoc()) {
-                $buffer .= '<td>' . $risultato['competenza'] . '</td>';
+                $buffer .= '<td>' . htmlentities($risultato['competenza']) . '</td>';
                 $contatore++;
                 if ($contatore % MAX_PER_COLUMN == 0) {
                     $this->printColumn($buffer);
