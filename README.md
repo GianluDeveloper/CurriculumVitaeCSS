@@ -1,6 +1,6 @@
 # My Curriculum Vitae with PHP Backend
 
-Progetto esemplificativo utilizzo PHP.<br/>
+Progetto esemplificativo utilizzo PHP.\
 Permette di aggiungere e rimuovere competenze in maniera dinamica interfacciandosi ad un database MySQL.
 
 Esempio in produzione:
