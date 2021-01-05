@@ -1,0 +1,217 @@
+$padding: 4mm;
+$margin: 1mm;
+$styleNum: 2;
+$textureColor: rgb(130, 194, 231);
+@import "./paper.min.scss";
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/regular.scss";
+@import "./fontawesome/scss/solid.scss";
+
+@import "./fonts.scss";
+@page {
+  size: A4;
+}
+
+section {
+  font-family: "EB Garamond";
+  font-size: 17px;
+
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-column-gap: 1em;
+  grid-template-rows: auto;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: min-content;
+  grid-template-areas:
+    "p p p p d d d d d d d d "
+    ". t t t t t t t t t t .";
+}
+.profile {
+  grid-area: p;
+  padding: $padding;
+  margin: $margin;
+  border-radius: 5px;
+  //   color: wheat;
+  //   background: rgba(136, 187, 235, 0.801);
+  background: linear-gradient(90deg, $textureColor 0%, rgb(255, 255, 255) 100%);
+}
+.data {
+  grid-area: d;
+  padding: $padding;
+}
+.nodots {
+  list-style-type: none;
+}
+
+.personaldata {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 5px;
+}
+
+.competenze {
+  table {
+    td {
+      border: 1px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      padding: 3px;
+    }
+  }
+}
+.position {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  // font-size: 1.5em;
+  //   text-align: center;
+}
+.tabellacompetenze {
+  text-align: center;
+  padding-left: 40px;
+}
+@if ($styleNum==2) {
+  .name i {
+    display: none;
+  }
+  .name {
+    margin-left: 4em;
+  }
+  .name {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: "Cavolini Bold";
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    text-align: left;
+  }
+  .name {
+    text-align: left !important ;
+    margin-left: 0px;
+  }
+  .position {
+    font-size: 18px;
+    text-align: left;
+    // font-size: 1.5em;
+    //   text-align: center;
+  }
+  .position i:nth-child(2) {
+    display: none;
+  }
+}
+@if ($styleNum==1) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-style: italic;
+  }
+  .name {
+    text-align: center;
+    font-style: normal;
+  }
+  .name i {
+    display: none;
+  }
+  .position {
+    font-size: 20px;
+    text-align: center;
+    // font-size: 1.5em;
+    //   text-align: center;
+  }
+  .tabellacompetenze {
+    padding-left: 10px;
+  }
+}
+
+.name span {
+  font-weight: bold;
+
+  // font-size: 1.5em;
+}
+
+.lavori,
+.formazione {
+  div {
+    margin: 0.8em;
+  }
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+
+.trattamento {
+  grid-area: t;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+  // visibility: hidden;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+}
+
+.descrizione,
+.lingue,
+.patenti,
+.interessi {
+  margin-bottom: 40px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+
+  font-family: "Roboto";
+  letter-spacing: 3px;
+}
+
+.fa-cogs {
+  margin-left: 10px;
+  visibility: hidden;
+}
+.fa-calendar-alt {
+  margin-left: 20px;
+}
+.tablecenter {
+  tr td:first-child {
+    font-weight: bold;
+  }
+  tr td:last-child {
+    text-align: right;
+  }
+}
+
+.margineprofilo {
+  margin-top: 8px;
+}
+
+@media print {
+  .trattamento {
+    visibility: visible;
+  }
+}
+.notShow {
+  display: none;
+}
+// .datacalendario {
+//   margin-left: 10px;
+// }
+// .private {
+//   color: rgb(75, 37, 37);
+// }
