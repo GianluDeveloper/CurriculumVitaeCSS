@@ -3,6 +3,8 @@
 Progetto esemplificativo utilizzo PHP.\
 Permette di aggiungere e rimuovere competenze interfacciandosi dinamicamente ad un database MySQL.
 
+Creato "from the ground up" con CSS3 & CSS Grid
+
 Esempio in produzione:
 
 - Homepage <https://gianlu.dev/curriculumX/>
