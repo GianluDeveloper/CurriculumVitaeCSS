@@ -12,3 +12,5 @@ Esempio in produzione:
 - Funzione Javascript di "Censura" <https://gianlu.dev/curriculumX/?private>
 
 - Per aggiungere competenze <https://gianlu.dev/curriculumX/aggiungiCompetenze.php>
+
+![CSSCurriculum](CSSCurriculumScreen.png)
