@@ -14,3 +14,12 @@ Esempio in produzione:
 - Per aggiungere competenze <https://gianlu.dev/curriculumX/aggiungiCompetenze.php>
 
 ![CSSCurriculum](CSSCurriculumScreen.png)
+
+## Utilizzo con Docker
+
+```
+
+docker-compose build
+docker-compose up -d
+
+```

@@ -135,7 +135,7 @@
   font-family: "EB Garamond";
   font-style: normal;
   font-weight: 400;
-  src: url(/curriculumX/styles/fonts/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI9_.woff2)
+  src: url(./fonts/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI9_.woff2)
     format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
@@ -271,7 +271,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url(/curriculumX/styles/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+  src: url(./fonts/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
@@ -281,7 +281,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Cavolini Regular"),
-    url("/curriculumX/styles/fonts/CAVOLINI.woff") format("woff");
+    url("./fonts/CAVOLINI.woff") format("woff");
 }
 
 @font-face {
@@ -289,7 +289,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Cavolini Italic"),
-    url("/curriculumX/styles/fonts/CAVOLINIITALIC.woff") format("woff");
+    url("./fonts/CAVOLINIITALIC.woff") format("woff");
 }
 
 @font-face {
@@ -297,7 +297,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Cavolini Bold"),
-    url("/curriculumX/styles/fonts/CAVOLINIBOLD.woff") format("woff");
+    url("./fonts/CAVOLINIBOLD.woff") format("woff");
 }
 
 @font-face {
@@ -305,5 +305,5 @@
   font-style: normal;
   font-weight: normal;
   src: local("Cavolini Bold Italic"),
-    url("/curriculumX/styles/fonts/CAVOLINIBOLDITALIC.woff") format("woff");
+    url("./fonts/CAVOLINIBOLDITALIC.woff") format("woff");
 }
